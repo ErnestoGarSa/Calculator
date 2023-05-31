@@ -4,9 +4,9 @@
   padding: 0;
 }
 
-.root {
+/* .root {
   min-height: 100vh;
-}
+} */
 
 .calculator {
   border: solid 1px black;
@@ -14,11 +14,21 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6, 1fr);
   gap: 1rem;
+  width: 70%;
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
 }
 
 .total {
   grid-column: span 4;
   font-size: 5rem;
+  color: white;
+}
+
+.btn1 {
+  font-size: 3rem;
 }
 
 .add {
@@ -29,6 +39,16 @@
   grid-row: span 2;
 }
 
-.cero {
-  grid-column: span 2;
+.clear {
+  background-color: rgb(150, 150, 150);
+}
+
+.operator {
+  background-color: rgb(250, 140, 17);
+  color: white;
+}
+
+.number {
+  background-color: rgb(43, 43, 43);
+  color: white;
 }

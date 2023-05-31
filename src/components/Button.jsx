@@ -3,7 +3,7 @@ const Button = (props) => {
 
   return (
     <button
-      className={`btn rounded border border-2 ${className}`}
+      className={`rounded border border-2 ${className} text-light btn1 `}
       onClick={click}
     >
       {btnValue}
